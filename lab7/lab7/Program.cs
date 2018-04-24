@@ -11,6 +11,8 @@ namespace lab7
         static void Main(string[] args)
         {
             Console.WriteLine("Holaaasa");
+
+            Console.ReadKey();
         }
     }
 }
