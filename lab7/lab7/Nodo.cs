@@ -11,12 +11,25 @@ namespace lab7
         Nodo<T> hijoIzq;
         Nodo<T> hijoDer;
         Nodo<T> contenido;
-        Nodo<T> padre;
-        T objeto;
-        public Nodo()
-        {
 
+        public Nodo(Nodo<T> miContenido, Nodo<T> miHijoIzq, Nodo<T> miHijoDer)
+        {
+              contenido = miContenido;
+              hijoIzq = miHijoIzq;
+              hijoDer = miHijoDer;
         }
 
+        public Nodo<T> GetContenido()
+        {
+            return contenido;
+        }
+        public Nodo<T> GetHijoIzq()
+        {
+            return hijoIzq;
+        }
+        public Nodo<T> GetHijoDer()
+        {
+            return hijoDer;
+        }
     }
 }

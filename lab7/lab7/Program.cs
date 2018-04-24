@@ -10,7 +10,10 @@ namespace lab7
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Holaaasa");
+            Console.WriteLine("Inicio del arbol binario!");
+
+            Nodo<string> nodo1 = new Nodo<string> (Nodo<string> "contenido", "Ismael", "Daniel");
+            Console.WriteLine("{0}",nodo1.GetContenido());
 
             Console.ReadKey();
         }
