@@ -8,5 +8,9 @@ namespace lab7
 {
     class Nodo
     {
+        string contenidoNodo;
+        string nodoPadre;
+        int 
+        public Nodo()
     }
 }
