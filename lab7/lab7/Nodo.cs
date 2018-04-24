@@ -6,11 +6,17 @@ using System.Threading.Tasks;
 
 namespace lab7
 {
-    class Nodo
+    class Nodo<T>
     {
-        string contenidoNodo;
-        string nodoPadre;
-        int 
+        Nodo<T> hijoIzq;
+        Nodo<T> hijoDer;
+        Nodo<T> contenido;
+        Nodo<T> padre;
+        T objeto;
         public Nodo()
+        {
+
+        }
+
     }
 }
